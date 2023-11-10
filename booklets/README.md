@@ -35,7 +35,7 @@ Good: The rational number ρ has odd denominator.
 ```
 
 5. از عملگر «⇒‟ یا نماد «∴‟ استفاده نکنید. اولی فقط تو جملات نمادین هست، دومی در ریاضیات  سطح بالا استفاده نمیشه.
-```
+```python
 Bad: a is an integer ⇒ a is a rational number.
 Good: if a is an integer, then a is a rational number.
 Bad: ⇒ x = 3.
