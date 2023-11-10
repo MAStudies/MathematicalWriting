@@ -5,11 +5,12 @@
 ### اعداد و نماها
 1. جمله ای که حاوی اعداد و نمادها باش باید همچنان یک جمله انگلیسی درست باشه، .مخصوصا علائم نگارشی.
 
-> Bad: a < b a ǂ 0\
-Good: We have a < b and a ǂ 0.\
-Good: We find that a < b and a ǂ 0.\
+```python
+Bad: a < b a ǂ 0
+Good: We have a < b and a ǂ 0.
+Good: We find that a < b and a ǂ 0.
 Good: Let a < b, with a ǂ 0.
-
+```
 2. نمادهای غیر ضروری رو حذف کنین.
 
 > Bad: Every differentiable real function f is continuous.\
