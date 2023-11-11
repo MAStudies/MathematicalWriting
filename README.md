@@ -263,3 +263,389 @@ pairwise disjoint if A ∩ ‌B = ∅ whenever i ≠ j | |
 مجموعه‌ی مرجع | ambient set | | |
 زوج مرتب | ordered pair | (a, b) = (c, d) if a = c and b = d. | (1,2)
 ضرب دکارتی | cartesian product | × | A × B | |
+
+
+| Persian Translation | Word | Symbol | Definition in Persian | Example |
+|----------------------|------|--------|------------------------|---------|
+| مجموعه اعداد مختلط | Set of ordered pairs of complex numbers | ℂ² | - | - |
+| مجموعه نقاط منطقی در دایره واحد | Set of rational points on the unit circle | - | - | *(𝑥, 𝑦) ∈ ℚ²: 𝑥² + 𝑦² = 1* |
+| - | Set of fractions representing a rational number | - | - | - |
+| - | Set of divisors of an odd integer | - | - | - |
+| - | A proper infinite subset of the unit circle | - | - | - |
+| ضرب دستی دو مجموعه متناهی اعداد مختلط | Cartesian product of two finite sets of complex numbers | - | - | - |
+| مجموعه متناهی اعداد صحیح متوالی | Finite set of consecutive integers | - | - | - |
+| - | The set whose only element is the integer 3 | - | Let 𝑋 = {3} | - |
+| - | A set whose only element is an integer | - | Let 𝑋 = {𝑛} with 𝑛 ∈ ℤ | - |
+| - | A set which contains a given integer | - | Let 𝑛 ∈ ℤ, and let 𝑋 be a set such that 𝑛 ∈ 𝑋 | - |
+| - | A set which contains at least one integer | - | Let 𝑋 be a set such that 𝑋 ∩ ℤ ≠ ∅ | - |
+| - | A set which contains precisely one integer | - | Let 𝑋 be a set such that #(𝑋 ∩ ℤ) = 1 | - |
+| - | A proper infinite subset of a unit circle | - | - | - |
+| - | The set whose only element is an integer 3 | - | - | - |
+| - | The set which contains precisely one integer | - | - | - |
+| - | The set whose only element is an integer | - | - | - |
+| - | The intersection of a line and a conic section has at most two points | - | - | - |
+| - | The set of rational points in any open interval is infinite | - | - | - |
+| - | A cylinder is the cartesian product of a segment and a circle | - | - | - |
+| - | The complement of the unit circle consists of two disjoint components | - | - | - |
+
+| Persian Translation | Word | Symbol | Definition in Persian | Example |
+|----------------------|------|--------|------------------------|---------|
+| - | Definite Article (The) | - | - | - |
+| - | Meaning “mentioned earlier”, “that” | - | - | Let 𝐴 ⊂ 𝐵. If 𝑓(𝑥) = 0 for every 𝑥 intersecting the set 𝐴, then ... |
+| - | In front of a noun referring to a single, uniquely determined object | - | - | Let 𝑓 be the linear form defined by (2). So 𝑓 = 1 in the compact set 𝐶 of all points at distance 1 from 𝑃. |
+| - | In the construction: the + property + of + object | - | - | The continuity of 𝑓 follows from ... |
+| - | In front of a cardinal number if it embraces all objects considered | - | - | The two groups have been shown to have the same number of generators. |
+| - | In front of an ordinal number | - | - | The first Poisson integral in (4) converges to 𝑔. |
+| - | In front of surnames used attributively | - | - | The Dirichlet problem |
+| - | In front of a noun in the plural referring to a class of objects as a whole | - | - | The real measures form a subclass of the complex ones. This class includes the Helson sets. |
+
+
+
+| Persian Translation | Word | Symbol | Definition in Persian | Example |
+|----------------------|------|--------|------------------------|---------|
+| اعداد طبیعی | Natural numbers | ℕ | - | - |
+| اعداد صحیح | Integers | ℤ | - | - |
+| اعداد ریاضی | Rationals | ℚ | - | - |
+| اعداد حقیقی | Real numbers | ℝ | - | - |
+| اعداد مختلط | Complex numbers | ℂ | ℂ ≝ *𝑥 + 𝑦 ∶ 𝑥² + 𝑦² = −1, 𝑥, 𝑦 ∈ ℝ+* | 𝑧 = 𝑥 + 𝑦, 𝑥 = 𝑅𝑒(𝑧), 𝑦 = 𝐼𝑚(𝑧) |
+| بازه | Interval | [𝑎, 𝑏] | {𝑥 ∈ ℝ : 𝑎 ≤ 𝑥 ≤ 𝑏} | [1, 5], [0, 2] |
+| نقطه | Point | - | A degenerate closed interval: {𝑥 ∈ ℝ : 𝑎 = 𝑏} | {𝑎} |
+| بازه باز | Open interval | (𝑎, 𝑏) | {𝑥 ∈ ℝ : 𝑎 < 𝑥 < 𝑏} | (1, 5), (0, 2) |
+| نصف‌بازه | Half-open interval | [𝑎, 𝑏) (𝑎, 𝑏] | {𝑥 ∈ ℝ : 𝑎 < 𝑥 ≤ 𝑏} {𝑥 ∈ ℝ : 𝑎 ≤ 𝑥 < 𝑏} | [0, 1), (1, 2] |
+| بازه واحد | Unit interval | [0, 1] | The interval with end-points 𝑎 = 0 and 𝑏 = 1 | [0, 1] |
+| شعاع | Ray | - | {𝑥 ∈ ℝ : 𝑎 < 𝑥} or {𝑥 ∈ ℝ : 𝑥 > 𝑏} | ℝ+, ℝ- |
+| اعداد مثبت | Positive numbers | ℝ⁺ | {𝑥 ∈ ℝ, 𝑥 > 0} | ℝ⁺ |
+| اعداد مثبت ریاضی | Positive rational numbers | ℚ⁺ | {𝑥 ∈ ℚ , 𝑥 > 0} | ℚ⁺ |
+| صفحه کارتزی | Cartesian plane | ℝ² | The set of all ordered pairs of real numbers | (𝑥, 𝑦) ∈ ℝ²: 𝑥 is abscissa, 𝑦 is ordinate |
+| نقاط مختلط صحیح | Set of rational points in ℝ² | ℚ² | {𝑥 ∈ ℝ² : 𝑥 is rational} | (𝑥, 𝑦) ∈ ℚ² |
+| مربع واحد | Unit square | ,0,1-² | {𝑥 ∈ ℝ² : 0 ≤ 𝑥 ≤ 1, 0 ≤ 𝑦 ≤ 1} | ,0,1-² |
+| مکعب واحد | Unit cube | ,0,1-³ | {𝑥 ∈ ℝ³ : 0 ≤ 𝑥 ≤ 1, 0 ≤ 𝑦 ≤ 1, 0 ≤ 𝑧 ≤ 1} | ,0,1-³ |
+| هایپرمکعب واحد | Unit hypercube | ,0,1-ⁿ | For 𝑛 > 3 in ℝⁿ | ,0,1-ⁿ |
+| دایره واحد | Unit circle | 𝑆¹ | {(𝑥, 𝑦) ∈ ℝ² : 𝑥² + 𝑦² = 1} | 𝑆¹ |
+| دایره واحد بسته | Closed unit disc | - | {(𝑥, 𝑦) ∈ ℝ² : 𝑥² + 𝑦² ≤ 1} | *{(𝑥, 𝑦) ∈ ℝ² : 𝑥² + 𝑦² = 1}* |
+| دایره واحد باز | Open unit disc | - | {(𝑥, 𝑦) ∈ ℝ² : 𝑥² + 𝑦² < 1} | *{(𝑥, 𝑦) ∈ ℝ² : 𝑥² + 𝑦² ≤ 1, 𝑥² + 𝑦² < 1}* |
+| کره واحد 𝑛-بعدی | n-dimensional unit sphere | 𝑆ⁿ | {(𝑥₀, ..., 𝑥𝑛) ∈ ℝⁿ⁺¹ : 𝑥₀² + ... + 𝑥𝑛² = 1} | 𝑆², 𝑆³, ... , 𝑆ⁿ |
+
+
+
+Sets and Definitions
+
+| Persian Translation | Word | Symbol | Definition in Persian | Example |
+|----------------------|------|--------|------------------------|---------|
+| اعداد طبیعی | Natural numbers | ℕ | ℕ := {1, 2, 3, . . .} | ℕ := {1, 2, 3, . . .} |
+| اعداد صحیح | Integers | ℤ | ℤ := {. . . ,−2,−1, 0 , 1 , 2, . . .} or ℤ := {0,±1,±2, . . . } | ℤ := {0,±1,±2, . . . } |
+| مجموعه خالی | Empty set | ∅ | ∅ ≝{x : x ≠ x} | ∅ ≝{x : x ≠ x} |
+| اعداد ریاضی | Rational numbers | ℚ | ℚ := {𝑎/𝑏 : a ∈ ℤ, b ∈ ℕ, gcd(a, b) = 1} | ℚ := {𝑎/𝑏 : a ∈ ℤ, b ∈ ℕ, gcd(a, b) = 1} |
+
+Set Definitions and Zermelo Definitions
+
+| Persian Translation | Definition in Persian | Example |
+|----------------------|------------------------|---------|
+| تعریف مجموعه با زرملو | W := {x ∈ X : x has ��} | The set of real numbers strictly between 0 and 1 |
+| تعریف مجموعه با زرملو | W := {x : x ∉ x} | W := {x : x ∉ x} |
+| تعریف توان | x^y | 3^4 ≝ 3 · 3 · 3 · 3 |
+| علامت تقسیم | 3 | 3 divides x (x is a multiple of 3) | 3 | 
+| مضرب مشترک بزرگ و کمترین مضرب مشترک | gcd, lcm | - |
+
+Arithmetic Notations
+
+| Notation | Description | Example |
+|-----------|-------------|---------|
+| x + y, x - y | Sum and difference | 3 + 4, 3 - 4 |
+| x × y, x ÷ y | Product and quotient | 3 × 4, 3 ÷ 4 |
+| 1/x, -x | Reciprocal and opposite | 1/3, -3 |
+| x^y | Exponentiation | 2^3 |
+| x | y | Divisibility | 3 | 6 (3 divides 6) |
+
+Divisibility and Primes
+
+| Term | Definition | Example |
+|------|------------|---------|
+| proper divisor | Positive divisor of n, not 1 or n | Proper divisor of 12: 3 |
+| prime | Integer > 1 with no proper divisors | Prime numbers: 2, 3, 5, ... |
+| gcd, lcm | Greatest common divisor, least common multiple | gcd(12, 18) = 6, lcm(4, 5) = 20 |
+| co-prime | Two integers with gcd = 1 | 15 and 28 are co-prime |
+
+
+
+In writing mathematics, we use words and symbols to describe facts. We need to explain the meanings of words and symbols and to state and prove the facts. We'll be concerned with facts later. In this chapter and the next, we list mathematical words with accompanying notation. This is our essential mathematical dictionary. It contains some 200 entries, organized around few fundamental terms: set, function, sequence, equation. As we introduce new words, we use them in short phrases and sentences. Dictionaries are not meant to be read through, so don't be surprised if you find the exposition demanding. Take it in small doses. The last section of this chapter deals with advanced terminology and may be skipped on first reading.
+
+Set
+A set is a collection of well-defined, unordered, distinct objects. (This is the so-called 'naive definition' of a set, due to Cantor.) These objects are called the elements of a set, and a set is determined by its elements. We may write:
+
+The set of all odd integers
+The set of vertices of a pentagon
+The set of differentiable real functions
+In simple cases, a set can be defined by listing its elements, separated by commas, enclosed within curly brackets. The expression {1, 2, 3} denotes the set whose elements are the integers 1, 2, and 3.
+
+It is customary to ignore repeated set elements: {2, 1, 3, 1, 3} = {2, 1, 3}. If repeated elements are allowed and not collapsed, then we speak of a multiset: {2, 1, 3, 1, 3}. The multiplicity of an element of a multiset is the number of times the element occurs. Reference to multiplicity usually signals that there is a multiset in the background.
+
+Every quadratic equation has two complex solutions, counting multiplicities.
+
+The set {} with no elements is called the empty set, denoted by the symbol ∅.
+
+Assignment Operator
+To assign a symbol to a mathematical object, we use an assignment statement (or definition), which has the following syntax: A := {1, 2, 3}. This expression assigns the symbolic name A to the set {1, 2, 3}, and now we may use the former in place of the latter. The symbol ‘:=’ denotes the assignment operator. It reads ‘becomes’, or ‘is defined to be’, rather than ‘is equal to’, to underline the difference between assignment and equality.
+
+There are other symbols for the assignment operator, namely <-, =, and :=: which make an even stronger point. To indicate that x is an element of a set A, we write x ∈ A, x is an element of A, or x belongs to A. The symbol ∉ is used to negate membership.
+
+Subset and Cardinality
+A subset B of a set A is a set whose elements all belong to A. We write B ⊂ A or B is a subset of A and we use ⊄ to negate set inclusion.
+
+Every set has at least two subsets: itself and the empty set. Sometimes these are referred to as the trivial subsets. Every other subset, if any, is called a proper subset.
+
+The cardinality of a set is the number of its elements, denoted by # or | · |. A set is finite if its cardinality is an integer, and infinite otherwise.
+
+Set Operations
+A ∩ B: Intersection of sets A and B, containing elements that belong to both A and B.
+A ∪ B: Union of sets A and B, containing elements that belong to A or B (or both).
+A \ B: Set difference of A and B, containing elements of A that do not belong to B.
+AΔB: Symmetric difference of A and B, defined as (A \ B) ∪ (B \ A).
+Examples:
+
+{1, 2, 3} ∩ {3, 4, 5} = {3}
+{1, 2, 3} ∪ {3, 4, 5} = {1, 2, 3, 4, 5}
+{1, 2, 3} \ {3, 4, 5} = {1, 2}
+{1, 2, 3} Δ {3, 4, 5} = {1, 2, 4, 5}
+Set operators have properties like commutativity and associativity, but set difference doesn't follow these properties.
+
+Complement
+Let A be a subset of a set X. The complement of A (in X) is the set X \ A, denoted by ��′ or by ����. The complement of a set is defined with respect to an ambient set X.
+
+The odd integers are the complement of the even integers, where it's clear that the ambient set is the integers.
+
+Ordered Pair and Cartesian Product
+An ordered pair is an expression of the type (a, b), with a and b arbitrary quantities. Ordered pairs are defined by the property (a, b) = (c, d) if a = c and b = d. The ordered pair (a, b) should not be confused with the set {a, b}, since for pairs order is essential and repetition is allowed.
+
+Let A and B be sets. The cartesian product of A and B is the set of all ordered pairs (a, b), with a in A and b in B, denoted as A × B. Note that A and B need not be distinct; one may write A^2 for A × A, A^3 for A × A × A, etc. The explicit presence of the multiplication operator ‘×’ is needed here because the expression AB has a different meaning.
+
+
+Mathematical Writing
+Chapter 1: Style
+
+Clarity Over Fancy Language
+
+Bad: We note the fact that the polynomial 
+2
+�
+2
+−
+�
+−
+1
+2x 
+2
+ −x−1 has the coefficient of the 
+�
+2
+x 
+2
+  term positive.
+Good: The leading coefficient of the polynomial 
+2
+�
+2
+−
+�
+−
+1
+2x 
+2
+ −x−1 is positive.
+Inverse of a Matrix
+
+Bad: The inverse of the matrix A requires the determinant of A to be non-zero in order to exist, but the matrix A has zero determinant, and so its inverse does not exist.
+Good: The matrix A has zero determinant, hence it has no inverse.
+Prominence of Important Words
+
+Bad: An important example of a transcendental function is the logarithm.
+Good: The logarithm is an important example of a transcendental function.
+Good: Let us now define a key transcendental function: the logarithm.
+Active Voice and Word Variation
+
+Bad: The convergence of the above series will now be established.
+Good: We establish the convergence of the above series.
+Bad: The function defined above is a function of both x and y.
+Good: The function defined above depends on both x and y.
+Avoid Unfamiliar Words
+
+Bad: A simplistic argument shows that our polynomial is irreducible.
+Good: A simple argument shows that our polynomial is irreducible.
+
+
+Chapter 1: Numbers and Symbols
+
+Correct English Sentences with Numbers and Symbols
+
+Bad: 
+�
+<
+�
+a<b, 
+�
+≠
+0
+a
+
+=0
+Good: We have 
+�
+<
+�
+a<b and 
+�
+≠
+0
+a
+
+=0.
+Good: We find that 
+�
+<
+�
+a<b and 
+�
+≠
+0
+a
+
+=0.
+Good: Let 
+�
+<
+�
+a<b, with 
+�
+≠
+0
+a
+
+=0.
+Omit Unnecessary Symbols
+
+Bad: Every differentiable real function 
+�
+f is continuous.
+Good: Every differentiable real function is continuous.
+Number Representation
+
+Bad: The equation has 4 solutions.
+Good: The equation has four solutions.
+Good: The equation has 127 solutions.
+Bad: Both three and five are prime numbers.
+Good: Both 3 and 5 are prime numbers.
+Starting Sentences with Numerals or Symbols
+
+Bad: 
+�
+ρ is a rational number with an odd denominator.
+Good: The rational number 
+�
+ρ has an odd denominator.
+Combining Operators with Words
+
+Bad: The difference 
+�
+−
+�
+b−a is < 0.
+Good: The difference 
+�
+−
+�
+b−a is negative.
+Misuse of Implication and Therefore Symbols
+
+Bad: 
+�
+a is an integer 
+⇒
+�
+⇒a is a rational number.
+Good: if 
+�
+a is an integer, then 
+�
+a is a rational number.
+Bad: 
+⇒
+�
+=
+3
+⇒x=3.
+Bad: 
+∴
+�
+=
+3
+∴x=3.
+Good: hence 
+�
+=
+3
+x=3.
+Separation of Formulae or Symbols by Words
+
+Bad: Consider 
+�
+�
+A 
+n
+​
+ , 
+�
+<
+5
+n<5.
+Bad: Add 
+�
+p 
+�
+k times to 
+�
+c.
+Bad: Add 
+�
+p to 
+�
+c 
+�
+k times.
+Good: Add 
+�
+p to 
+�
+c, repeating this process 
+�
+k times.
+GRAMMAR Part1: INDEFINITE ARTICLE (a, an, ----)
+
+Instead of the Number “One”
+
+Examples: The four centers lie in a plane.
+A chapter will be devoted to the study of expanding maps.
+Meaning “Member of a Class of Objects”, “Some”, “One Of”
+
+Examples: Then 
+�
+D becomes a locally convex space with dual space 
+�
+′
+D 
+′
+ .
+The right-hand side of (4) is then a bounded function.
+In Definitions of Classes of Objects
+
+Examples: A fundamental solution is a function satisfying .....
+We wish to find a solution of (6) which is of the form .....
+In the Plural—When Referring to Each Element of a Class
+
+Examples: Direct sums exist in the category of abelian groups.
+In particular, closed sets are Borel sets.
+In Front of an Adjective Which Means “Having This Particular Quality”
+
+Examples: This map extends to all of 
+�
+M in an obvious fashion.
+A remarkable feature of the solution should be stressed.
