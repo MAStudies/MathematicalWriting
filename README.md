@@ -259,7 +259,6 @@ pairwise disjoint if A ∩ ‌B = ∅ whenever i ≠ j | |
 اجتماع | union | ∪ | در A یا B باشن. | A ∪ B = {1,2,3}
 اختلاف | difference | \\ | مجموعه ای از چیزا که تو یه مجموعه هستن ولی تو مجموعه ی دیگه نیستن. | A\B = {2,3}
 |  | symmetric difference | Δ | AΔ B ≝ (A \ B) ∪ (B \ A) | {1, 2, 3} Δ {3, 4, 5} = {1, 2, 4, 5}.
-|
 متمم | complement | A' | متمم|A' = {4,5,6,7}
 مجموعه‌ی مرجع | ambient set | | |
 زوج مرتب | ordered pair | (a, b) = (c, d) if a = c and b = d. | (1,2)
