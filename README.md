@@ -1,6 +1,6 @@
 # جزوه خلاصه درس
 
-## فصل ۱
+## جلسه‌ی دوم
 
 ### اعداد و نماها
 1. دقت کنین اگه جملتون شامل اعداد و نمادها باشه باید همچنان هم از نظر انگلیسی درست باشه، مخصوصا علائم نگارشی و نقطه گذاری
@@ -56,7 +56,7 @@ Bad: Add p to c k times.
 Good: Add p to c, repeating this process k times.
 ```
 
-### استفاده از `a`, `an و ...
+### استفاده از مقاله‌ی نامعین مثل `a`, `an و ...
 
 ‍1. بجای عدد `یک` (‍`one`)
 
@@ -128,4 +128,53 @@ A more general theory must be sought to account for these irregularities.
 3. **قبل از "the" وقتی به تمام عناصر یک کلاس اشاره می‌شود:** اگر شما به تمام عناصر یک کلاس اشاره می‌کنید، از "the" استفاده می‌کنید. به عنوان مثال، "اندازه‌گیری‌های واقعی یک زیرکلاس از اعداد مختلط هستند". اینجا به تمام اعداد مختلط اشاره شده و از "the" استفاده شده است.
 
 4. **نکته آخر:** مقاله نامعین می‌تواند همراه با صفتی باشد که به "داشتن این خصوصیت خاص" اشاره دارد. به عنوان مثال، "یک ویژگی قابل توجه در راه حل باید تاکید شود". در اینجا، ویژگی قابل توجه به ماهیت خاصی اشاره دارد.
+```
+
+## جلسه‌ی سوم
+
+1. سعی کنین بجای استفاده از زبان پیچیده از زبان واضح و سر راست استفاده کنین و الکی نپیچونین مطلب رو. از طرفی هم از جملات طولانی استفاده نکنین و اون جمله رو به چند تا جمله کوچیک‌تر بشکونین.
+
+```python
+Bad: We note the fact that the polynomial 2x^2 − x − 1 has the coefficient of the x^2 term positive.
+
+Good: The leading coefficient of the polynomial 2x^2 − x − 1 is positive.
+
+Bad: The inverse of the matrix A requires the determinant of A to be non-zero in order to exist, but the matrix A has zero determinant, and so its inverse does not exist.
+
+Good: The matrix A has zero determinant, hence it has no inverse.
+```
+
+2. سعی کنین لغات مهم  و کلیدی یک جمله رو تو یک جایی بذارین که مخاطب با دیدن سریع اون جمله متوجه اون لغت بشه. مثلا مثال های زیر رو ببینین:
+
+```python
+Bad: An important example of a transcendental function is the logarithm.
+Good: The logarithm is an important example of a transcendental function.
+Good: Let us now define a key transcendental function: the logarithm.
+Bad: A commonly used method to check the orthogonality of two vectors is to verify that their scalar product is zero.
+Good: If the scalar product of two vectors is zero, then the vectors are orthogonal.
+```
+
+> orthogonal: متعامد، قائم.\
+transcendental: ماورایی، غیرجبری
+
+3. بجای فعل مجهول از فعل حال استفاده کنین.
+
+```python
+Bad: The convergence of the above series will now be established.
+Good: We establish the convergence of the above series.
+```
+
+4. بجای تکرار کلمات و کسل کننده تر کردن متن کلمات رو  تغییر بدین.
+
+```python
+Bad: The function defined above is a function of both x and y.
+Good: The function defined above depends on both x and y.
+```
+> monotony: یکنواختی
+
+5. اگه معنی یک لغت رو دقیقا نمی‌دونید، ازش استفاده نکنین!
+
+```python
+Bad: A simplistic argument shows that our polynomial is irreducible.
+Good: A simple argument shows that our polynomial is irreducible.
 ```
